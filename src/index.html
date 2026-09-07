@@ -408,6 +408,7 @@
             .replace(/"/g, '&quot;');
 
         desc.innerHTML = escapedDesc
+            .replace(/\{\{\s*([\s\S]*?)\s+\w+\s*\}\}/g, '$1')
             .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
             .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
 
