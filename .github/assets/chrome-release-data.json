@@ -1,12 +1,16 @@
 {
     "chrome_release_data": [
         {
+            "tag_name": "v2.6.15",
+            "chrome_release_date": null
+        },
+        {
             "tag_name": "v2.6.14.1",
             "chrome_release_date": null
         },
         {
             "tag_name": "v2.6.14",
-            "chrome_release_date": "October 4, 2026"
+            "chrome_release_date": "October 3, 2026"
         },
         {
             "tag_name": "v2.6.13",
@@ -114,10 +118,6 @@
         },
         {
             "tag_name": "v2.5.5",
-            "chrome_release_date": null
-        },
-        {
-            "tag_name": "v2.5.4",
             "chrome_release_date": null
         }
     ]
